@@ -1,7 +1,0 @@
-forms_module.content:
-  path: /form-elements
-  defaults:
-    _form: 'Drupal\forms_module\Form\FormElements'
-    _title: 'Form API Elements'
-  requirements:
-    _permission: 'access content'
