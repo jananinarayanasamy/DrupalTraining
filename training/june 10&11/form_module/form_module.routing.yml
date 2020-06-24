@@ -1,0 +1,15 @@
+form_module.add:
+  path: /custom/register
+  defaults:
+    _form: 'Drupal\form_module\Form\Register'
+    _title: 'Register Form'
+  requirements:
+    _permission: 'access content'
+
+form_module.edit:
+  path: /custom/{configid}/edit
+  defaults:
+    _form: 'Drupal\form_module\Form\NewPassword'
+    _title: 'Reset Password Form'
+  requirements:
+    _permission: 'access content'    

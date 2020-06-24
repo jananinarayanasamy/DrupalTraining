@@ -1,0 +1,7 @@
+config_module.config_example_add:
+  path: /custom_conf
+  defaults:
+    _form: 'Drupal\config_module\Form\ConfigurationSetting'
+    _title: 'Addong / Accessing Custom Configuration'
+  requirements:
+    _permission: 'access content'

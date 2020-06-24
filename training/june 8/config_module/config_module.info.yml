@@ -1,0 +1,9 @@
+name: Custom Configuration
+description: 'Module to access or update configuration.'
+type: module    
+package: custom
+configure: config_module.configuration
+version: '8.x'
+core: '8.x'
+project: 'Training'
+

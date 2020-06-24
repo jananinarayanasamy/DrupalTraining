@@ -1,0 +1,6 @@
+name: My User Display Module
+description: For Assignment.
+type: module
+core_version_requirement: ^8.8.0
+version: '8.x'
+project: 'Assignment'

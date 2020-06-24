@@ -1,0 +1,18 @@
+user_display.content:
+  path: '/my_content' 
+  defaults: 
+    _controller: '\Drupal\user_display\Controller\ContentController::content' 
+    _title: 'Hello '
+  requirements: 
+    _permission: 'access content' 
+    
+
+user_display.userDisplay:
+  path: '/userDisplay/{user}' 
+  defaults: 
+    _controller: '\Drupal\user_display\Controller\ContentController::userDisplay' 
+  requirements:
+    _role: 'administrator'    
+ 
+
+    

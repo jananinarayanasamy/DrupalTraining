@@ -1,0 +1,19 @@
+calculator.content:
+  path: '/calci' 
+  defaults: 
+    _controller: '\Drupal\calculator\Controller\CalculatorClass::calculate' 
+    _title: 'Calculator'
+  requirements: 
+    _permission: 'access content' 
+    
+
+calculator.userDisplay:
+  path: '/areaCal/{heigth}/{width}' 
+  defaults: 
+    _controller: '\Drupal\calculator\Controller\AreaClass::areaCalculation' 
+    _title: 'Area Calculation'
+  requirements:
+    _role: 'administrator'    
+ 
+
+    
